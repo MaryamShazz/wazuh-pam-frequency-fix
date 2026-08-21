@@ -222,9 +222,3 @@ It documents:
 * **Closed Pull Request:** https://github.com/wazuh/wazuh/pull/38154
 
 ---
-
-# 📜 License
-
-This repository is licensed under the **MIT License**.
-
-Wazuh itself is licensed separately under **GPLv2**.
