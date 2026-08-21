@@ -1,0 +1,17 @@
+PLACEHOLDER: no screenshot exists yet for this moment. This is the real terminal
+output, copied exactly as it appeared, pending a real screenshot to replace this file.
+
+Command run inside the wazuh-test container:
+
+  bash-5.2# /var/ossec/bin/wazuh-control restart
+
+Relevant line from the output:
+
+  2026/08/03 17:36:24 wazuh-analysisd: WARNING: (7612): Rule ID '5558' is
+  duplicated. Only the first occurrence will be considered.
+
+Confirmed with:
+
+  bash-5.2# grep -R 'id="5558"' /var/ossec/ruleset/rules
+  /var/ossec/ruleset/rules/0085-pam_rules.xml:  <rule id="5558" level="10" frequency="8" timeframe="180">
+  /var/ossec/ruleset/rules/0085-pam_rules.xml:  <rule id="5558" level="10" frequency="8" timeframe="180">
