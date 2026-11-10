@@ -218,7 +218,7 @@ It documents:
 # 🔗 References
 
 * **Issue:** https://github.com/wazuh/wazuh/issues/16252
-* **Pull Request:** https://github.com/wazuh/wazuh/pull/38270
+* **Pull Request (Closed for further improvement):** https://github.com/wazuh/wazuh/pull/38270
 * **Closed Pull Request:** https://github.com/wazuh/wazuh/pull/38154
 
 ---
